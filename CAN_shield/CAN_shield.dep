@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>3417860793</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_can.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\interrupt.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\source\main.o</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\uart.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\pin_map.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\gpio.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\utils\uartstdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\can.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_types.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_ints.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\CAN_shield.out</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C1294NC.icf</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\List\CAN_shield.map</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\source\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\source\startup_ewarm.o</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_nvic.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\inc\hw_uart.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\debug.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\rom_map.h</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\utils\uartstdio.c</file>
+            <file>$PROJ_DIR$\..\..\TivaWare_C_Series-2.2.0.295\driverlib\rom.h</file>
+            <file>$PROJ_DIR$\startup_ewarm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\can.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 22 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 16 17 2 3 4 5 18 19 0 20 15 1 11 10 8 9 12 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\CAN_shield.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 23 32 7 30 26 25 24 28</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\source\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 16 17 2 3 4 5 18 19 0 20 15 1 11 10 8 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_ewarm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14 16 17 2 3 4 31 19</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\source\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\startup_ewarm.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
